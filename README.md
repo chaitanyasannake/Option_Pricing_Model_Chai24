@@ -33,7 +33,7 @@ After establishing baseline performances, the exploration moved on to more compl
 This approach allowed for a systematic comparison of the performance of different models under a consistent evaluation framework, ensuring that the final model selections were both robust and well-justified.
 
 # Final Model
-For selecting the final models, two main criteria were emphasized. First, models demonstrating higher performance with a smaller standard deviation within sets, especially in cross-validation and test sets, were preferred. Second, models showing minimal differences in performance between training, cross-validation (CV), and test sets were favored, as this indicates a balanced model that is neither overfitting nor underfitting. Based on these rules, specific models were chosen as the final models for the project.
+For selecting the final models, two main criteria were emphasized. First, models demonstrating higher performance with a smaller standard deviation within sets, especially in cross-validation and test sets, were preferred. Second, models showing minimal differences in performance between training, cross-validation (CV), and test sets were favored, as this indicates a balanced model that is neither overfitting nor underfitting. Based on these rules, specific models were chosen as the final models for the project. 
 
 1. Regression - Gradient Boosting :
   - Training - R-square: 0.9996
@@ -45,4 +45,7 @@ For selecting the final models, two main criteria were emphasized. First, models
   - Testing - R-square: 0.9271
   - Cross Validation - R-square: 0.9247
 
+Conclusion: We have chosen Gradient Boosting as the primary use algorithm for option pricing (Catboost Stacked). 
 
+## Author
+- Chaitanya Sannake - [LinkedIn](https://www.linkedin.com/in/chaitanya-sannake-a73692226/) 
